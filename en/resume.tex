@@ -26,36 +26,18 @@
 % Specify the location of the included fonts
 \fontdir[fonts/]
 
-% Color for highlights
-% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
-%                 awesome-nephritis, awesome-concrete, awesome-darknight
-\colorlet{awesome}{awesome-red}
-% Uncomment if you would like to specify your own color
-% \definecolor{awesome}{HTML}{CA63A8}
-
-% Colors for text
-% Uncomment if you would like to specify your own color
-% \definecolor{darktext}{HTML}{414141}
-% \definecolor{text}{HTML}{333333}
-% \definecolor{graytext}{HTML}{5D5D5D}
-% \definecolor{lighttext}{HTML}{999999}
-
-% Set false if you don't want to highlight section with awesome color
 \setbool{acvSectionColorHighlight}{false}
 
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
-
 %-------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
 %	Comment any of the lines below if they are not required
 %-------------------------------------------------------------------------------
-% Available options: circle|rectangle,edge/noedge,left/right
-% \photo[rectangle,edge,right]{./examples/profile}
+
 \name{Jean-Claude}{Desrosiers}
 \position{Computer Science Student{\enskip\cdotp\enskip}Software Developer}
-% \address{42-8, Bangbae-ro 15-gil, Seocho-gu, Seoul, 00681, Rep. of KOREA}
 
 \mobile{(+1) 438-990-4360}
 \email{jean-claude.desrosiers@jclaude.xyz}
@@ -63,17 +45,6 @@
 \github{Jean-Claude-D}
 \linkedin{jclaude-des}
 \gitlab{DesJC}
-% \stackoverflow{SO-id}{SO-name}
-% \twitter{@twit}
-% \skype{skype-id}
-% \reddit{reddit-id}
-% \medium{madium-id}
-% \googlescholar{googlescholar-id}{name-to-display}
-%% \firstname and \lastname will be used
-% \googlescholar{googlescholar-id}{}
-% \extrainfo{extra informations}
-
-% \quote{``Be the change that you want to see in the world."}
 
 \usepackage{lastpage}
 
@@ -91,11 +62,11 @@
   {Jean-Claude Desrosiers~~~·~~~Résumé}
   {\thepage\ of \pageref{LastPage}}
 
-
 %-------------------------------------------------------------------------------
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
+
 \input{resume/skills}
 \vspace{0.2in}
 \input{resume/summary.tex}
@@ -105,12 +76,6 @@
 \input{resume/experience.tex}
 \vspace{0.2in}
 \input{resume/extracurricular.tex}
-
-% \input{resume/honors.tex}
-% \input{resume/presentation.tex}
-% \input{resume/writing.tex}
-% \input{resume/committees.tex}
-
 
 %-------------------------------------------------------------------------------
 \end{document}
